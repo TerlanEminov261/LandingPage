@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <meta name="keywords" content="Landing Page">
+    <meta name="description" content="Landing Page">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Fonts Google -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Tablet -->
+    <link rel="stylesheet" media="(max-width:768px)" href="css/tablet.css">
+    <link rel="stylesheet" media="(max-width:500px)" href="css/mobile.css">
+
+
+</head>
+
+<body>
+    <header class="bg-dark-blue">
+        <div class="container">
+            <nav id="navbar">
+                <h1 class="heading-small">Eminov Terlan</h1>
+
+                <ul>
+                    <li><a href="#home">Ana Sehife|</a></li>
+                    <li><a href="#training">Dersler|</a></li>
+                    <li><a href="#courses">Kurslar|</a></li>
+                    <li><a href="#contact">Elaqe|</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <img src="images/profile2.jpg" alt="profile photo">
+
+        <div class="name text-center">
+            <h2 class="heading-big">Eminov Terlan</h2>
+            <p>Computer Engineer | Founder of Modern Web</p>
+        </div>
+
+        <a href="#courses" class="btn btn-primary">Kurslara Git</a>
+    </section>
+
+    <section id="training" class="bg-dark-blue">
+
+        <h3 class="text-center heading-medium">Dersler</h3>
+        <div class="items">
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Sinif Üçün Dersler</h3>
+                <P>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </P>
+            </article>
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Online Dersler</h3>
+                <P>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </P>
+            </article>
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Konferanslar</h3>
+                <P>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </P>
+            </article>
+        </div>
+    </section>
+
+    <section id="courses">
+        <h3 class="text-center heading-medium">Kurslar</h3>
+
+        <!-- Course 1 -->
+        <div class="container">
+            <div class="courses">
+                <div class="course">
+                    <div class="course-img">
+                        <img src="images/python.jpg" alt="">
+                        <span>%90 Endirim</span>
+                    </div>
+                    <div class="course-info">
+                        <div class="title">
+                            (40 + Saat) Python | Sıfırdan İleri Seviyye Proqramlama(2020)
+                        </div>
+                        <div class="description">
+                            (40 + Saat) Python | Sıfırdan İleri Seviyye Proqramlama(2020)
+                        </div>
+                        <div class="instructor">
+                            Eminov Terlan, Yazılım Elmi
+                        </div>
+                        <div class="rating">
+                            4.6 | (19990 Rating)
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Course 2 -->
+
+                <div class="course">
+                    <div class="course-img">
+                        <img src="images/java.jpg" alt="">
+                        <span>%90 Endirim</span>
+                    </div>
+
+                    <div class="course-info">
+                        <div class="title">
+                            Ümumi Java Developer Kursu
+                        </div>
+                        <div class="description">
+                            Ümumi Java Developer Kursu | Sıfırdan Java Öyren
+                        </div>
+                        <div class="instructor">
+                            Eminov Terlan, Yazılım Elmi
+                        </div>
+                        <div class="rating">
+                            4.6 | (7000 Rating)
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Course 3 -->
+
+                <div class="course">
+                    <div class="course-img">
+                        <img src="images/javascript.jpg" alt="">
+                        <span>%90 Endirim</span>
+                    </div>
+
+                    <div class="course-info">
+                        <div class="title">
+                            Ümumi Modern JavaScript Kursu
+                        </div>
+                        <div class="description">
+                            Ümumi Modern JavaScript Kursu - ES6+
+                        </div>
+                        <div class="instructor">
+                            Eminov Terlan, Yazılım Elmi
+                        </div>
+                        <div class="rating">
+                            4.7 | (2000 Rating)
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <footer id="contact" class="bg-dark-blue">
+        <div class="contact-form">
+            <form>
+                <h4 class="text-center heading-medium">Elaqe Üçün</h4>
+                <div class="form-group">
+                    <label for="name">Ad</label>
+                    <input type="name" text class="form-control" name="name" id="name" placeholder="Ad">
+                </div>
+
+                <div class="form-group">
+                    <label for="Email">Email</label>
+                    <input type="text" text class="form-control" name="email" id="email" placeholder="E-Mail">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Mesaj</label>
+                    <textarea name="message" id="message" class="form-control" rows="10"
+                        placeholder="Mesajınız..."></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-block">Gönder</button>
+            </form>
+            <ul>
+                <li><a href="https://www.facebook.com/profile.php?id=100018739267045" target="_blank"><i
+                            class="fab fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/tarlaneminov" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.instagram.com/tarlan.eminov/" target="_blank"><i
+                            class="fab fa-instagram "></i></a></li>
+
+            </ul>
+        </div>
+
+
+    </footer>
+
+
+</body>
+
+</html>
